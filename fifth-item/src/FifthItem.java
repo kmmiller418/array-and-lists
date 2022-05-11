@@ -7,7 +7,7 @@ public class FifthItem {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter at least five items, and an empty line to stop:");
 
-        ArrayList list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
         while (true){
             String listItem = s.nextLine();
             if (listItem.equals("")){

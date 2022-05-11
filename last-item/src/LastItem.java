@@ -1,13 +1,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
-
 public class LastItem {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter list items, and an empty line to stop:");
 
-        ArrayList list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
         while (true){
             String listItem = s.nextLine();
             if (listItem.equals("")){
